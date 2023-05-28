@@ -20,7 +20,7 @@ public class Reverse_String_Program {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.makemytrip.com/flights/?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAin0mqLjj0C44kUtlDtzQrxMJtpJB8K9p-SrdLPyH1EtYobFhpZ6y0aAnFBEALw_wcB&cmp=SEM|D|DF|G|Brand|B_M_Makemytrip_Variants|Brand-Variants-Exact|ETA|Regular|V2|529647798181&s_kwcid=AL!1631!3!529647798181!e!!g!!make%20my&ef_id=Cj0KCQjw98ujBhCgARIsAD7QeAin0mqLjj0C44kUtlDtzQrxMJtpJB8K9p-SrdLPyH1EtYobFhpZ6y0aAnFBEALw_wcB:G:s");
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(false, false);
 		driver.quit();
 	}
 
