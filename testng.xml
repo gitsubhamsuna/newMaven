@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Java_Project.Single_File_Input"/>
+      <class name="Java_Project.ReverseString"/>
       <class name="Java_Program.Reverse_String_Program"/>
     </classes>
   </test> <!-- Test -->
